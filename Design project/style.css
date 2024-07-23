@@ -1,0 +1,121 @@
+/* Style css for main page */
+html {
+    background-color: #252525;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+h2 {
+    color: lemonchiffon;
+    position: fixed;
+    left: 5px;
+    top: 5px;
+}
+/* Header style */
+.header {
+    display: block;
+    width: 100%;
+    height: 200px;
+    position: relative;
+    margin: 50px;
+}
+
+.main > .header > h1 {
+    width: 50%;
+    font-size: 5rem;
+    color: lightsalmon;
+    position: relative;
+    left: 10%;
+    top: 50%;
+   
+}
+.Crafting {
+    color: #5df6f6;
+}
+/* Body */
+.body {
+    display: inline-block;
+}
+
+/* Project1 Style */
+.project1 {
+    display: inline-block;
+    max-width: 50%;
+    padding: 20px;
+}
+
+.project1 img {
+    float: left;
+    width: 200px;
+    height: 300px;
+    padding: 10px;
+    margin-top:40px;
+}
+
+.project1 p {
+    color: #efefef;
+    font-size: 2rem;
+    padding: 20px;
+    text-align: left;
+}
+
+/* Project2 style  */
+.project2 {
+    display: inline-block;
+    background-color: #252525;
+    max-width: 50%;
+    margin-left: 10px;
+}
+
+.project2 img {
+    float: left;
+    width: 200px;
+    height: 300px;
+    padding: 10px;
+    margin-top:40px;
+}
+
+.project2 p {
+    color: #efefef;
+    font-size: 2rem;
+    padding: 20px;
+    text-align: justify;
+}
+
+footer p {
+    background-color: #000000;
+    color: darkgray;
+    text-align: justify;
+    margin-top: 60%;
+    margin-left: 10px;
+}
+
+@media(max-width:680px){
+h2{
+    width:100px;
+}
+h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .project1 {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+  .project2 {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
+}
