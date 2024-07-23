@@ -1,67 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <title>CSS Flag Project</title>
-  <style>
-    /* Write your CSS Code here */
-    /*red rect */
-    .flag {
-      width: 900px;
-      height: 600px;
-      background-color: red;
-      position: relative;
-    }
-
-    /* blue rect */
-    .flag > div {
-      width: 100%;
-      height: 300px;
-      background-color: #002868;
-      position: absolute;
-      top: 150px;
-
-    }
-    /*circle */
-    .flag > div > div {
-      width: 200px;
-      height: 200px;
-      background-color:white;
-      border-radius: 50%;
-      position: relative;
-      top:50px;
-      left:350px;
-    }
-    p{
-      margin: 0;
-      font-size: 5rem;
-      text-align: center;
-      color: white;
-
-    }
-  </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, intitial-scale=1.0">
+    <title>Design Agency</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 </head>
-
-<!-- 
-  IMPORTANT! Do not change any HTML
-Don't add any classes/ids/elements 
-Use what you know about combining selectors 
-and CSS specificity instead.
-Hint 1: The flag is 900px by 600px and the circle is 200px by 200px.
-Hint 2: You can use CSS inspection to get the colors from
-https://appbrewery.github.io/flag-of-laos/
--->
-
 <body>
-  <div class="flag">
-    <p>The Flag</p>
-    <div>
-      <div>
-        <p>of Laos</p>
-      </div>
+    <div class="main">
+        <!-- header block-->
+        <h2>AtDesignWeb.com</h2>
+        <div class="header">
+            
+            <h1><span class="Crafting">Crafting</span> Beatiful and Functional Websites</h1>
+        </div>
+        <div class="body">
+            <div class="project1">
+                <img src="./images/Creative.jpg" alt="Creative-Team-Work">
+                <div class="p1">
+                        <p><strong> Professsional </strong></p>
+                <p></hr>
+                    Our ideas are resulted from a very effective
+                     teamwork, highly effective professionals 
+                     gather together to present the best in market Design
+                    </p>
+                </div>
+            </div>
+            <div class="project2">
+                <img src="./images/StockCake.jpg" alt="Cookies-design">
+                <div class="p2">
+                    <p><Strong>Creativity</Strong></p>
+                    <p>The success driven and result 
+                        oriented team stacks their 
+                        efforts to achieve dynamically 
+                        Functional and offers convenience 
+                        and user friendly experience.</p>
+                </div>
+                
+            </div>
+        </div>
     </div>
-  </div>
 </body>
-
+<footer>
+    <p>CC Agecny copy wright</p>
+</footer>
 </html>
