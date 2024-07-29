@@ -1,50 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, intitial-scale=1.0">
-    <title>Design Agency</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+    body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 50%;
+    }
+    .painting{
+      display: grid;
+      background-color: #000;
+      grid-template-columns: 320px 198px 153px 50px;
+      grid-template-rows: 414px  130px 155px 20px;
+      column-gap: 9px;
+      row-gap: 9px;
+      grid-auto-rows: 20px;
+    }
+    .redbox{
+      background-color: #E72F24;
+    }
+    .Whitebox1{
+      background-color: #f0f1ec;
+      grid-column: span 3;
+    }
+    .Whitebox2{
+      background-color: #f0f1ec;
+      
+      grid-row: span 2;
+    }
+    .Whitebox3{
+      background-color: #f0f1ec;
+      grid-row: span 2; 
+      grid-column: span 2;
+    }
+    .blue{
+      background-color: #004592;
+      margin-bottom: 1px;
+      height: 130px;
+    }
+    .Whitebox5{
+      background-color: #f0f1ec;
+      margin-top: 10px;
+      grid-row: span 2;
+    }
+    .whotebox7{
+      background-color: #f0f1ec;
+    }
+    .yellowbox{
+      background-color: #F9D01E;
+    }
+    .blackbox{
+      background-color: #232629;
+    }
+  </style>
 </head>
+
 <body>
-    <div class="main">
-        <!-- header block-->
-        <h2>AtDesignWeb.com</h2>
-        <div class="header">
-            
-            <h1><span class="Crafting">Crafting</span> Beatiful and Functional Websites</h1>
-        </div>
-        <div class="body">
-            <div class="project1">
-                <img src="./images/Creative.jpg" alt="Creative-Team-Work">
-                <div class="p1">
-                        <p><strong> Professsional </strong></p>
-                <p></hr>
-                    Our ideas are resulted from a very effective
-                     teamwork, highly effective professionals 
-                     gather together to present the best in market Design
-                    </p>
-                </div>
-            </div>
-            <div class="project2">
-                <img src="./images/StockCake.jpg" alt="Cookies-design">
-                <div class="p2">
-                    <p><Strong>Creativity</Strong></p>
-                    <p>The success driven and result 
-                        oriented team stacks their 
-                        efforts to achieve dynamically 
-                        Functional and offers convenience 
-                        and user friendly experience.</p>
-                </div>
-                
-            </div>
-        </div>
-    </div>
+  <div class="painting">
+    <div class="item1 redbox"></div>
+    <div class="item2 Whitebox1"></div>
+    <div class="item3 Whitebox2"></div>
+    <div class="item4 Whitebox3"></div>
+    <div class="item5 blue"></div>
+    <div class="item6 Whitebox5"></div>
+    <div class="item7 whotebox7"></div>
+    <div class="item8 yellowbox"></div>
+    <div class="item9 blackbox"></div>
+  </div>
+
 </body>
-<footer>
-    <p>CC Agecny copy wright</p>
-</footer>
+
 </html>
