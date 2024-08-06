@@ -1,0 +1,102 @@
+
+/* Elements */
+body{
+    font-family: "Modern Antiqua", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2{
+    color: #6ec9fb;
+    font-family: "Modern Antiqua", serif;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h3{
+    color: #6ec9fb;
+    font-family: "Modern Antiqua", serif;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* Span specs */
+.web{
+    color: #bbdcf5;
+}
+/* Classes */
+/* Image of the First title page */
+/* Container holding the image and the text */
+.container{
+    display: grid;
+    width: 100%;
+    height: 70vh;
+    font-family: "Open Sans", sans-serif;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    background-color: #0aa1ff;
+    width: 100%;
+    height: 800px;
+    font-family: "Open Sans", sans-serif;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    z-index:-1;
+}
+/* 2nd section "Features" design below  */
+.features{
+    background-color: #6ec9fb;
+    color: #022784;
+    font-family: "Open Sans", sans-serif;
+    display: grid;
+    height: 80vh;
+    grid-template-columns: 300px 800px;
+    grid-template-rows: 200px 200px;
+    padding: 30px;
+    gap:20px;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+#skills{
+    font-size: 1.3rem;
+    padding-left: 10px;
+}
+#interests{
+    font-size: 1.3rem;
+    padding-left: 10px;
+}
+/* Footer CSS design from here*/ 
+.footer{
+    background-color: #212f3d;
+    color: #6ec9fb;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 200px 100px;
+}
+#developer{
+    left: 40%;
+     position: relative;
+} 
+#qoute{
+    position: relative;
+    padding: 20px;
+    /* To align the paragraph start with Pictures above */
+    padding-left: 90px;
+}
+#paragraph{
+    position: relative;
+    text-align: center;
+    top: 20%;
+}
