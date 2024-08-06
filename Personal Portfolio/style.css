@@ -77,10 +77,18 @@ h3{
     font-size: 1.3rem;
     padding-left: 10px;
 }
+
+/* The dots section */
+#dots{
+    background-color: #6ec9fb;
+    color: aquamarine;
+    display: inline;
+    text-align: center;
+}
 /* Footer CSS design from here*/ 
 .footer{
-    background-color: #212f3d;
-    color: #6ec9fb;
+    background-color: #6ec9fb;
+    color: #022784;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 50px 200px 100px;
@@ -88,7 +96,7 @@ h3{
 #developer{
     left: 40%;
      position: relative;
-} 
+}
 #qoute{
     position: relative;
     padding: 20px;
@@ -99,4 +107,10 @@ h3{
     position: relative;
     text-align: center;
     top: 20%;
+}
+.container-footer{
+    display: block;
+    background-color: #212f3d;
+    color: white;
+    text-align: center;
 }
