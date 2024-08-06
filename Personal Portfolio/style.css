@@ -55,7 +55,7 @@ h3{
 }
 /* 2nd section "Features" design below  */
 .features{
-    background-color: #6ec9fb;
+    /* background-color: #6ec9fb; */
     color: #022784;
     font-family: "Open Sans", sans-serif;
     display: grid;
@@ -66,28 +66,39 @@ h3{
     gap:20px;
     justify-content: center;
     align-content: center;
-    
 }
-
+#feature-title{
+    color: #0072c4;
+    text-align: center;
+    top: 900px;
+}
 #skills{
+    color: #5a5ace;
     font-size: 1.3rem;
     padding-left: 10px;
 }
+#coding{
+    border-radius: 70px;
+}
+#food{
+    border-radius: 50px;
+}
 #interests{
+    color: #5a5ace;
     font-size: 1.3rem;
     padding-left: 10px;
 }
 
 /* The dots section */
 #dots{
-    background-color: #6ec9fb;
-    color: aquamarine;
+    /* background-color: #6ec9fb; */
+    color: #29b385;
     display: inline;
     text-align: center;
 }
 /* Footer CSS design from here*/ 
 .footer{
-    background-color: #6ec9fb;
+    /* background-color: #6ec9fb; */
     color: #022784;
     display: grid;
     grid-template-columns: 1fr;
@@ -96,17 +107,27 @@ h3{
 #developer{
     left: 40%;
      position: relative;
+     border-radius: 10px;
 }
 #qoute{
     position: relative;
     padding: 20px;
     /* To align the paragraph start with Pictures above */
     padding-left: 90px;
+    font-size: 17px;
 }
 #paragraph{
     position: relative;
     text-align: center;
     top: 20%;
+}
+#Contact-me{
+    display: inline-block;
+    background-color: aqua;
+    width: 50px;
+    border-radius: 40px;
+    color: #3b5f5f;
+    text-align: center;
 }
 .container-footer{
     display: block;
